@@ -13,8 +13,14 @@ html{
 img{    
 margin: 50px 50px 0px 50px;
 border: 2px solid black;
+border-radius: 18px;
 height: 300px;
 width: 300px;
+}
+
+.youtube-video
+{
+  border-radius: 18px;
 }
 
 body{

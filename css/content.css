@@ -3,7 +3,8 @@ h1{
     font-size: 50px;
     font-style: italic;
     margin: 0 50px;
-    color: black;    
+    color: black;   
+    
    }
 
 html{
@@ -16,9 +17,20 @@ img{
     
     margin: 50px 50px 0px 50px;
     border: 2px solid black;
+    border-radius: 18px;
     height: 500px;
     width: 350px;
 }
+.youtube-video
+{
+border-radius: 18px;
+}
+
+/* .heading
+{
+    border: 2px solid black; 
+    border-radius: 18px;
+} */
 
 body{
     text-align: center;
