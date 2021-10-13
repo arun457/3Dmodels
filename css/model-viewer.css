@@ -36,3 +36,10 @@ model-viewer {
     margin: 5px 350px;
 }
 
+img#orthographic{    
+margin: 5px auto;
+border-radius: 10px;
+height: 100%;
+width: 100%;
+}
+
