@@ -36,6 +36,10 @@ model-viewer {
     margin: 5px 350px;
 }
 
+a{
+  color: green;
+}
+
 img#orthographic{    
 margin: 5px auto;
 border-radius: 10px;
