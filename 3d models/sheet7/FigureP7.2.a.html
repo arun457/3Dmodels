@@ -25,6 +25,10 @@
           aria-selected="true">3D Model</a>
       </li>
       <li class="nav-item" role="presentation">
+        <a class="nav-link" id="sectional-tab" data-toggle="tab" href="#sectional" role="tab" aria-controls="sectional"
+          aria-selected="false">Sectional View</a>
+      </li>
+      <li class="nav-item" role="presentation">
         <a class="nav-link" id="orthographic-tab" data-toggle="tab" href="#orthographic" role="tab"
           aria-controls="orthographic" aria-selected="false">Orthographic Projection</a>
       </li>
@@ -43,6 +47,19 @@
         </div>
 
         <!-- End of 3D model -->
+      </div>
+
+      <!-- ---------------------------------------------------------------------------------------------------->
+      <div class="tab-pane fade" id="sectional" role="tabpanel" aria-labelledby="sectional-tab">
+        <!-- Paste your Sectional View Here -->
+        <div id="holder">
+          <div id="model">
+            <model-viewer src="models/sectional/FigureP7.2.a.glb" alt="3D Model" camera-controls="">
+            </model-viewer>
+          </div>
+        </div>
+
+        <!-- End of Sectional View -->
       </div>
 
       <!-- -------------------------------------------------------------------------------------------------->
