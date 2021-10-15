@@ -26,12 +26,75 @@ img{
 border-radius: 18px;
 }
 
-/* .heading
+button#tutorial
 {
-    border: 2px solid black; 
-    border-radius: 18px;
-} */
+  font-size: 50px;
+  font-style: italic;
+  font-weight:bold;
+  text-align: center;
+  /* height: 130px;
+  width: 400px; */
+  display: inline;
+  border: black;
+  border-radius: 18px;
+  background-color: rgba(255, 56, 89, 0.5);
+  margin: 25px 10px 0;
+  cursor: pointer;
+}
 
-body{
-    text-align: center;
+button#lettering-sheet
+{
+  font-size: 50px;
+  font-style: italic;
+  font-weight:bold;
+  text-align: center;
+  /* height: 130px;
+  width: 400px; */
+  display: inline;
+  border: black;
+  border-radius: 18px;
+  background-color: rgba(52, 255, 171, 0.5);
+  margin: 25px 10px 0;
+  cursor: pointer;
+}
+button#past-questions
+{
+  font-size: 50px;
+  font-style: italic;
+  font-weight:bold;
+  text-align: center;
+  /* height: 130px;
+  width: 400px; */
+  display: inline;
+  border: black;
+  border-radius: 18px;
+  background-color: rgba(36, 111, 250, 0.5);
+  margin: 25px 10px 0;
+  cursor: pointer;
+}
+button#drawing-book
+{
+  font-size: 50px;
+  font-style: italic;
+  font-weight:bold;
+  text-align: center;
+  /* height: 130px;
+  width: 400px; */
+  display: inline;
+  border: black;
+  border-radius: 18px;
+  background-color: rgba(199, 14, 255, 0.5);
+  margin: 25px 10px 0;
+  cursor: pointer;
+}
+iframe
+{
+    height: 4128px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+body
+{
+  text-align: center;
 }
