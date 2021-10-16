@@ -25,10 +25,10 @@ height: 300px;
 width: 300px;
 }
 
-.youtube-video
+iframe
 {
-  border-radius: 18px;
-  margin: 20px 20px;
+  border-radius: 8px;
+  margin-top: 10px;
 }
 
 body{
