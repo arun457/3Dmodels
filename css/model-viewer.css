@@ -46,5 +46,6 @@ width: 100%;
 embed
 {
 width: 100% !important;
-height: 100px !important;
+height: 800px !important;
+border-radius: 10px;
 }
