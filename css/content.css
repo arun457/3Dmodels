@@ -93,7 +93,13 @@ iframe
     width: 100%;
     border-radius: 10px;
 }
-
+#feedbackfrom3dmodels
+{
+   width: 100%;
+  height: 600px;
+  border-radius: 10px;
+  background-color: rgba(78,100,228,0.1);
+}
 body
 {
   text-align: center;
