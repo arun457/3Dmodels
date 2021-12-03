@@ -70,23 +70,3 @@ p#myterms
   color: maroon;
   margin: 50px 0;
 }
-
-.semesterimage
-{
-  margin-left: 10px;
-  width: 250px;
-  height: 250px;
-  border-radius: 10px;
-  background-color: rgba(78,100,228,0.1);
-}
-
-#semesterpage
-{
-  /* border: 2px solid black; */
-  margin-left: 450px;
-  margin-top: 100px;
-  width: 550px;
-  height: wrap-content;
-  border-radius: 10px;
-  /* background-color: rgba(78,100,228,0.1); */
-}

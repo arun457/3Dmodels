@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://arun457.github.io/3Dmodels/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://arun457.github.io/3Dmodels/css/model-viewer.css">
+  <link rel="shortcut icon" href="https://arun457.github.io/3Dmodels/images/favicon.ico" type="image/x-icon">
+  <title>3D Models</title>
+
+</head>
+
+<body>
+
+  <div class="p-3">
+
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <a class="nav-link active" id="model-tab" data-toggle="tab" href="#modeltab" role="tab" aria-controls="model"
+          aria-selected="true">3D Model</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="sectional-tab" data-toggle="tab" href="#sectional" role="tab" aria-controls="sectional"
+          aria-selected="false">Sectional View</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="orthographic-tab" data-toggle="tab" href="#orthographic" role="tab"
+          aria-controls="orthographic" aria-selected="false">Orthographic Projection</a>
+      </li>
+    </ul>
+
+    <div class="tab-content" id="myTabContent">
+
+      <div class="tab-pane fade show active" id="modeltab" role="tabpanel" aria-labelledby="model-tab">
+        <!-- Paste your 3D model Here -->
+
+        <div id="holder">
+          <div id="model">
+            <model-viewer src="models/FigureP7.1.b.glb" alt="3D Model" camera-controls="">
+            </model-viewer>
+          </div>
+        </div>
+
+        <!-- End of 3D model -->
+      </div>
+
+      <!-- ---------------------------------------------------------------------------------------------------->
+      <div class="tab-pane fade" id="sectional" role="tabpanel" aria-labelledby="sectional-tab">
+        <!-- Paste your Sectional View Here -->
+        <div id="holder">
+          <div id="model">
+            <model-viewer src="models/sectional/FigureP7.1.b.glb" alt="3D Model" camera-controls="">
+            </model-viewer>
+          </div>
+        </div>
+
+        <!-- End of Sectional View -->
+      </div>
+
+      <!-- -------------------------------------------------------------------------------------------------->
+      <div class="tab-pane fade show" id="orthographic" role="tabpanel" aria-labelledby="orthographic-tab">
+        <!-- Paste the Orthographic projection Here -->
+        <img id="orthographic" src="orthographic/FigureP7.1.b.jpg" alt="Orthographic Projection">
+
+        <!-- End of Orthographic projection -->
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="https://arun457.github.io/3Dmodels/js/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://arun457.github.io/3Dmodels/js/bootstrap.min.js"></script>
+  <script src="https://arun457.github.io/3Dmodels/js/popper.min.js"></script>
+  <script type="module" src="https://arun457.github.io/3Dmodels/js/model-viewer.js"></script>
+
+</body>
+
+</html>
